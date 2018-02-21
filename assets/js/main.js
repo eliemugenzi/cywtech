@@ -1,11 +1,11 @@
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
+$(document).ready(()=>{
+  $('.parallax').parallax();
+  $('.carousel.carousel-slider').carousel({fullWidth:true});
 
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
-  
-
-  $(document).ready(function(){
-    var options ={scrollOffset:100};
-    $('.scrollspy').scrollSpy(options);
-  });
+  let options={
+    scrollOffset:100
+  }
+  $('.scrollspy').scrollSpy(options);
+  $('.slider').slider();
+  $(".button-collapse").sideNav();
+})
