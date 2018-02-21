@@ -1,3 +1,46 @@
 .head-img{
     height:500px;
 }
+
+.slider{
+  margin-top:3px;
+  height:50vh;
+}
+
+#team{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+section.row{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:10px;
+  margin-top:10px;
+  text-align: center;
+  background: #ddd;
+  padding:20px;
+}
+
+.card-img{
+  position: relative;
+  width: 80%;
+}
+@media(max-width:750px){
+  section.row{
+    display: block;
+    margin:10px 10%;
+  }
+
+  #team{
+    display: block;
+    margin:10px 10%;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    padding-right:5%;
+    padding-left: 5%;
+  }
+}
