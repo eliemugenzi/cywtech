@@ -2,7 +2,6 @@
     height:500px;
 }
 #partners,#events,#about{
-  opacity:0;
 }
 nav{
   overflow:hidden;
@@ -14,6 +13,7 @@ nav{
 }
 .caption{
   background-color: rgba(0, 0, 0, 0.521);
+  padding:20px;
 }
 #team{
   display: grid;
@@ -87,6 +87,13 @@ section.row{
 }
 #feedback{
   background:#ddd;
+  padding:20px;
+  margin:20px;
+}
+#newsletter{
+  padding:20px;
+  margin:20px;
+  background: #e8d0d0;
 }
 @media(max-width:750px){
   section.row{
