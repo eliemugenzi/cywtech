@@ -26,3 +26,17 @@ $(document).ready(()=>{
     $('#more3').slideToggle(500);
   })
 })
+
+
+var options = [
+  {selector: '#partners', offset: 500, callback: function(el) {
+    Materialize.fadeInImage($(el));
+  } },
+  {selector: '#about', offset: 500, callback: function(el) {
+    Materialize.fadeInImage($(el));
+  } },
+  {selector: '#events', offset: 500, callback: function(el) { 
+    Materialize.fadeInImage($(el));
+  } }];
+Materialize.scrollFire(options);
+        
