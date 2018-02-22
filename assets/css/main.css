@@ -9,7 +9,7 @@
 .slider{
   margin-top:3px;
   height:50vh;
-} 
+}
 .caption{
   background-color: rgba(0, 0, 0, 0.521); 
 }
@@ -32,6 +32,52 @@ section.row{
   position: relative;
   width: 80%;
 }
+.our-team{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:20px;
+  background: #ddd;
+  padding:20px;
+}
+.our-team .card{
+  padding: 10px;
+}
+.our-team .card-content{
+  display: flex;
+  justify-content: space-around;
+}
+#more1{
+  position: absolute;
+  display: none;
+  z-index:2;
+  background: #fff;
+  padding:8px;
+}
+#more2{
+  position: relative;
+  width: 100%;
+  display: none;
+  z-index:2;
+  background: #fff;
+  padding:15px;
+}
+#more3{
+  position: absolute;
+  display: none;
+  z-index:2;
+  background: #fff;
+  padding:8px;
+}
+.profile{
+  height: 150px;
+  width:100px;
+  border-radius: 50%;
+}
+
+.social-links a{
+  padding-right:20px;
+  color:#fff;
+}
 @media(max-width:750px){
   section.row{
     display: block;
@@ -41,6 +87,10 @@ section.row{
   #team{
     display: block;
     margin:10px 10%;
+  }
+  .our-team{
+    display: block;
+    margin-bottom: 10px;
   }
 
   footer{
