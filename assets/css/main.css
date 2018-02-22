@@ -2,6 +2,7 @@
     height:500px;
 }
 #partners,#events,#about{
+  opacity:0;
 }
 nav{
   overflow:hidden;
