@@ -4,14 +4,16 @@
 #partners,#events,#about{
   opacity:0;
 }
-
+nav{
+  overflow:hidden;
+}
 
 .slider{
   margin-top:3px;
   height:50vh;
 }
 .caption{
-  background-color: rgba(0, 0, 0, 0.521); 
+  background-color: rgba(0, 0, 0, 0.521);
 }
 #team{
   display: grid;
@@ -78,6 +80,14 @@ section.row{
   padding-right:20px;
   color:#fff;
 }
+#contact{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+#feedback{
+  background:#ddd;
+}
 @media(max-width:750px){
   section.row{
     display: block;
@@ -99,6 +109,13 @@ section.row{
     padding-right:5%;
     padding-left: 5%;
   }
+
+  #contact{
+    display: block;
+  }
+  #feedback{
+    margin-bottom:20px;
+  }
 }
 
 
@@ -111,4 +128,3 @@ body {
 main {
   flex: 1 0 auto;
 }
-    
