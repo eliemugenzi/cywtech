@@ -1,6 +1,6 @@
 $(document).ready(()=>{
   $('.parallax').parallax();
-  $('.carousel.carousel-slider').carousel({fullWidth:true});
+  //$('.carousel.carousel-slider').carousel({fullWidth:true});
 
   let options={
     scrollOffset:100
