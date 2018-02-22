@@ -1,6 +1,10 @@
 .head-img{
     height:500px;
 }
+#partners,#events,#about{
+  opacity:0;
+}
+
 
 .slider{
   margin-top:3px;
@@ -46,3 +50,15 @@ section.row{
     padding-left: 5%;
   }
 }
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    

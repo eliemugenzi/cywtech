@@ -9,3 +9,17 @@ $(document).ready(()=>{
   $('.slider').slider();
   $(".button-collapse").sideNav();
 })
+
+
+var options = [
+  {selector: '#partners', offset: 500, callback: function(el) {
+    Materialize.fadeInImage($(el));
+  } },
+  {selector: '#about', offset: 500, callback: function(el) {
+    Materialize.fadeInImage($(el));
+  } },
+  {selector: '#events', offset: 500, callback: function(el) { 
+    Materialize.fadeInImage($(el));
+  } }];
+Materialize.scrollFire(options);
+        
